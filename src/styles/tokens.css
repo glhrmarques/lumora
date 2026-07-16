@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Nunito:wght@400;500;600;700;800&display=swap');
+
+:root {
+  /* Color primitives */
+  --color-warm-ivory: 255 248 238;
+  --color-deep-burgundy: 107 39 55;
+  --color-forest-teal: 45 106 94;
+  --color-burnt-sienna: 196 98 58;
+  --color-accessible-sienna: 168 79 42;
+  --color-warm-peach: 245 176 138;
+  --color-soft-charcoal: 61 61 61;
+
+  /* Semantic colors */
+  --color-background: var(--color-warm-ivory);
+  --color-primary: var(--color-deep-burgundy);
+  --color-accent: var(--color-forest-teal);
+  --color-highlight: var(--color-accessible-sienna);
+  --color-highlight-on-dark: var(--color-warm-peach);
+  --color-text: var(--color-soft-charcoal);
+  --color-on-primary: var(--color-warm-ivory);
+
+  /* Typography */
+  --font-display: 'DM Serif Display', Georgia, serif;
+  --font-body: 'Nunito', ui-sans-serif, system-ui, sans-serif;
+  --font-weight-regular: 400;
+  --font-weight-medium: 600;
+  --font-weight-bold: 700;
+  --leading-display: 1.05;
+  --leading-body: 1.5;
+
+  /* Buttons */
+  --button-height: 3.5rem;
+  --button-padding-inline: 1.75rem;
+  --button-radius: 9999px;
+  --button-border-width: 2px;
+  --button-font-size: 1rem;
+  --button-font-weight: var(--font-weight-bold);
+  --button-primary-background: var(--color-highlight);
+  --button-primary-foreground: var(--color-on-primary);
+  --button-secondary-background: transparent;
+  --button-secondary-foreground: var(--color-highlight);
+  --button-secondary-border: var(--color-highlight);
+}
